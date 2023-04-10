@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+      - ./nginx.conf:/opt/docker/etc/nginx/vhost.conf
+    ports:
+      - 7200:8080
