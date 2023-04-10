@@ -1,5 +1,7 @@
 # Тестовое задание
 
+Хостится на https://b8.li.x.eltc.ru
+
 ## Описание проекта
 
 ### Шар предсказаний
@@ -35,8 +37,8 @@
 * php ^8.1+
    * [Требуемые Laravelом расширения](https://laravel.com/docs/8.x/deployment#server-requirements)
 * ИЛИ для запуска в Docker
-   * docker ^20.10.9
-   * docker-compose^1.22
+   * docker ^18.03.1
+   * docker-compose^1.21
 
 ## Установка
 
